@@ -1,0 +1,21 @@
+/* CameraCapture.css */
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.webcam-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.webcam {
+  display: block;
+}
+
+.face-box {
+  position: absolute;
+  border: 2px solid red; /* Change color and thickness as needed */
+  pointer-events: none;
+}
